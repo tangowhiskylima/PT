@@ -1,4 +1,4 @@
-#! /bin/bash
+#! /usr/bin/bash
 
 ############################################################
 ##
@@ -639,6 +639,8 @@ function RUN()
 	esac
 }
 
+#Some fake password list for testing purpose
+#
 function CREATEPASSWORDLIST()
 {
 	echo "[****] Creating test user/pass list"
