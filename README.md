@@ -13,13 +13,11 @@ Running the script will check for required applications.
 
 
 If apps are installed, user to choose between basic or full scan, and enter a directory name to save the scan information.
-
 ![image](https://github.com/user-attachments/assets/93a44b27-e35c-4c3a-825b-d53f12f79257)
 
 
 User to enter the target(s) in the accepted formats; 10.0.0.1-255 or 10.0.0.0/24 or any single IP.
 Script will scan the targets using nmap and masscan.
-
 ![image](https://github.com/user-attachments/assets/90f7a907-f5d0-4bde-8d26-bd7265f3c22b)
 
 Brute force (SSH, RDP, FTP and Telnet) will start after the scan is completed. 
