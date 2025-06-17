@@ -13,6 +13,7 @@ Running the script will check for required applications.
 
 
 If apps are installed, user to choose between basic or full scan, and enter a directory name to save the scan information.
+
 ![image](https://github.com/user-attachments/assets/93a44b27-e35c-4c3a-825b-d53f12f79257)
 
 
@@ -36,4 +37,5 @@ For certain backdoor vulnerabilities found, script will attempt to exploit using
 
 
 User can choose to view the reports or exit the script.
+
 ![image](https://github.com/user-attachments/assets/9ef76723-21d0-43c1-a63e-4d2a67ca0854)
