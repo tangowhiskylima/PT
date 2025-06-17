@@ -1,6 +1,6 @@
 **Disclaimer**
 
-This script was created for personal/educational purposes. Use at your own risk.
+This script was created for personal/educational purposes.
 
 **Description**
 
