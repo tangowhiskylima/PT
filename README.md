@@ -13,6 +13,7 @@ Running the script will check for required applications.
 
 
 If apps are installed, user to choose between basic or full scan, and enter a directory name to save the scan information.
+
 ![image](https://github.com/user-attachments/assets/93a44b27-e35c-4c3a-825b-d53f12f79257)
 
 
