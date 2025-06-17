@@ -18,6 +18,7 @@ If apps are installed, user to choose between basic or full scan, and enter a di
 
 User to enter the target(s) in the accepted formats; 10.0.0.1-255 or 10.0.0.0/24 or any single IP.
 Script will scan the targets using nmap and masscan.
+
 ![image](https://github.com/user-attachments/assets/90f7a907-f5d0-4bde-8d26-bd7265f3c22b)
 
 Brute force (SSH, RDP, FTP and Telnet) will start after the scan is completed. 
